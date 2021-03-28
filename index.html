@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Dino</title>
+        <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <center>
+            <label>Take a Photo of your dinosaur and You will be given the name for it</label>
+            <br><br>
+        <div id="camera"></div>
+        <br><br>
+        <div id="result"></div>
+        <br><br>
+        <button onclick="take_photo()" id="button_p">Take Photo</button>
+        <br><br>
+        <button onclick="identify()" id="button_i">Identify</button>
+        <br><br>
+        <h4>Dinosaur name : <span id="name"></span></h4>
+        <h4>Accuracy : <span id="acc"></span></h4>
+        </center>
+        <script src="main.js"></script>
+    </body>
+</html>

@@ -1,0 +1,12 @@
+#camera , #result{
+    box-shadow: 5px 5px 15px orangered;
+    width: 310px;
+    height: 300px;
+    border: 2px dashed black;
+}
+#button_p{
+    background-color: royalblue;
+}
+#button_i{
+    background-color: violet;
+}
